@@ -1,0 +1,7 @@
+<mat-toolbar>
+  <button mat-raised-button [routerLink]="['home']">Left</button>
+  <button mat-raised-button [routerLink]="['about']">Right</button>
+</mat-toolbar>
+<main [@routeAnimations]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</main>
