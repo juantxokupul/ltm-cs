@@ -9,4 +9,4 @@ OR
 
 - Download nodejs lastest version
 - Install dependencies: `npm install`
-- Run angular-cli server: `npm run start`
+- Build & serve: `npm run start`
